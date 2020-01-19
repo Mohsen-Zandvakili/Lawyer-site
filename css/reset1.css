@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'icon-font';
+    src: url('fonts/fontawesome-webfont') format('eot'),
+        url('fonts/fontawesome-webfont.ttf') format('ttf'),
+        url('fonts/fontawesome-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: 'iransans';
+	src: url('fonts/IRANSansWeb.ttf') format('truetype'),
+	url('fonts/IRANSansWeb.woff') format('woff'),
+	url('fonts/IRANSansWeb.eot') format('embedded-opentype');
+}
+
+/* Reset HTML Elements *//* ----------------------------------------- */
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin:0;
+	padding:0;
+}
+article, aside, figure, footer, header, hgroup, nav, section {
+	display: block
+}
+::selection {
+ background:#aaa;
+ color:#fff;
+}
+::-moz-selection {
+ background:#a94545;
+ color:#fff;
+}
+::-webkit-selection {
+ background:#a94545;
+ color:#fff;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #666;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #666;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #666;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #666;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	padding: 0;
+	margin: 0;
+}
+fieldset, img {
+	border:0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal;
+	font-weight:normal;
+}
+ul {
+	list-style:none;
+}
+caption, th {
+	text-align:right;
+	font-weight:bold;
+}
+q:before, q:after {
+	content:'';
+}
+* {
+	outline: none;
+}
+strong {
+    font-family: 'iransans';
+    font-size: 16px;
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+a img {
+	border:0;
+}
+/*-General Styles------------------------------------------*/
+
+a, a:visited {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+a:active {
+	border: 0;
+/*	color:#d70500;*/
+}
+span a,p a {
+    color: #2980B9;
+}
+p {
+	line-height:32px;
+	direction: rtl;
+	font-family: 'iransans',tahoma, Geneva, sans-serif;
+}
+.clearfix:after {
+	content: '';
+	clear:both;
+}
+.clearfix {
+	zoom: 1; /* IE 6/7 */
+}
+.clear {
+	clear:both;
+}
+h1, h2, h3, h4, h5, h6, figcaption,pre {
+    font-family: 'yekan-font', arial, tahoma;
+}
+h1 {
+font-size:26px;
+line-height:40px;
+}
+h2 {
+font-size:24px;
+line-height:38px;
+}
+h3 {
+font-size:22px;
+line-height:36px;
+}
+h4 {
+font-size:20px;
+line-height:34px;
+}
+h5 {
+font-size:18px;
+line-height:32px;
+}
+h6 {
+font-size:16px;
+line-height:30px;
+}
+.alignright {
+	display:inline;
+	float:right;
+	text-align:right;
+    margin-left: 10px;
+}
+.alignleft {
+	display:inline;
+	float:left;
+	text-align:left;
+    margin-right: 10px;
+}
+.aligncenter {
+	display:block;
+	margin:10px auto;
+	text-align:center;
+}
+.alignleft,.alignright,.aligncenter {
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"], input[type="button"] {
+	cursor:pointer;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
